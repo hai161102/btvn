@@ -1,0 +1,8 @@
+D:\VS2022\C++\btApp\btApp\bin\Debug\btApp.exe.config
+D:\VS2022\C++\btApp\btApp\bin\Debug\btApp.exe
+D:\VS2022\C++\btApp\btApp\bin\Debug\btApp.pdb
+D:\VS2022\C++\btApp\btApp\obj\Debug\btApp.csproj.AssemblyReference.cache
+D:\VS2022\C++\btApp\btApp\obj\Debug\btApp.csproj.SuggestedBindingRedirects.cache
+D:\VS2022\C++\btApp\btApp\obj\Debug\btApp.csproj.CoreCompileInputs.cache
+D:\VS2022\C++\btApp\btApp\obj\Debug\btApp.exe
+D:\VS2022\C++\btApp\btApp\obj\Debug\btApp.pdb
