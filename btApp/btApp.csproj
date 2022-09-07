@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="ConditionObject.cs" />
     <Compile Include="Const.cs" />
+    <Compile Include="LoopObject.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

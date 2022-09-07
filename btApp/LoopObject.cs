@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace btApp
 {
@@ -18,7 +14,7 @@ namespace btApp
         }
         public void bai3()
         {
-
+            Console.WriteLine();
         }
         public void bai4()
         {
@@ -26,19 +22,25 @@ namespace btApp
         }
         public void bai5()
         {
-            Console.WriteLine("Nhap cau a, b, c, hoac d: ");
-            string caseText = Console.ReadLine();
-            Console.WriteLine("Nhap N: ");
-            Console.WriteLine("Kq: " + Const.getS(int.Parse(Console.ReadLine()), caseText));
+            int n;
+            string textCase;
+            Console.WriteLine("Nhap n: ");
+            n = int.Parse(Console.ReadLine());
+            Console.WriteLine("Nhap cau: ");
+            textCase = Console.ReadLine();
+            Console.WriteLine("S = " + Const.getS(n, textCase));
         }
         public void bai6()
         {
-            Console.WriteLine("Nhap N: ");
-            Const.binaryDivide(int.Parse(Console.ReadLine()));
+            Console.WriteLine("Input number: ");
+            int n = int.Parse(Console.ReadLine());
+            Const.binaryDivide(n);
+            
         }
         public void bai7()
         {
             Const.bai7();
+
         }
         public void bai8()
         {
@@ -46,7 +48,9 @@ namespace btApp
         }
         public void bai9()
         {
+
             Const.checkNSNT();
+
         }
         public void bai10()
         {
