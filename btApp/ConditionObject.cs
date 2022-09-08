@@ -12,12 +12,13 @@ namespace btApp
         public void bai1()
         {
             Console.WriteLine("Nhap ky tu: ");
-            Const.findSyntax(Console.ReadLine().ToCharArray()[0]);
+            Console.WriteLine(Const.findSyntax(Console.ReadLine().ToCharArray()[0]));
         }
         public void bai2()
         {
             Console.WriteLine("Nhap so nguyen: ");
-            Const.whatIsNumber(int.Parse(Console.ReadLine()));
+
+            Console.WriteLine(Const.whatIsNumber(int.Parse(Console.ReadLine())));
         }
         public void bai3()
         {
@@ -131,6 +132,11 @@ namespace btApp
         public void bai19()
         {
             Const.checkScp();
+        }
+
+        internal void bai20()
+        {
+            throw new NotImplementedException();
         }
     }
 }

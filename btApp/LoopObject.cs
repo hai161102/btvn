@@ -60,5 +60,10 @@ namespace btApp
         {
             Const.countU();
         }
+
+        internal void bai12()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
